@@ -1,2 +1,2 @@
 # docker
-To store personalized Dockerfile
+To store personalized Dockerfile, which is used by dockerhub.
