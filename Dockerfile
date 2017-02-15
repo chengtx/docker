@@ -11,4 +11,6 @@ RUN apk upgrade --no-cache \
 
 ADD config.json /root/config.json
 
+EXPOSE 8388
+
 CMD ["/usr/bin/ssserver", "-c", "/root/config.json"]
